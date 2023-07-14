@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Зовнішній файл за стилями -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <!-- Шапка сторінки -->
+    <header>
+      <div class="container header">
+        <nav>
+          <!-- Логотип -->
+          <a class="logo" href="./">Web<span>Studio</span></a>
+          <!--Навігація -->
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Студія</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Контакти -->
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="">
+              <svg width="16" height="12"  class="contacts-icon">
+                <use href="./symbol-defs.svg#icon-email">
+                </use>
+              </svg>
+              info@devstudio.com</a>
+          </li>
+          <li class="contacts-item">
+            <a class="contacts-link" href="">
+              <svg width="10" height="16" class="contacts-icon">
+                <use href="./symbol-defs.svg#icon-phone"></use>
+              </svg>
+              +38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Головний контент -->
+    <main>
+      <!-- Секція герой -->
+      <section class="section hero">
+        <div class="container">
+          <h1>
+            Ефективні рішення для<br />
+            вашого бізнесу
+          </h1>
+          <button class="hero-button" type="button">Замовити послугу</button>
+        </div>
+      </section>
+      <!-- Переваги -->
+      <section class="section">
+        <div class="container">
+          <ul class="advantages">
+            <li class="item">
+              <div class="conteiner">
+              <svg width="70"height="70">
+                <use href="./symbol-defs.svg#icon-satellite"></use>
+              </svg>
+              </div>
+              <h3 class="title">Увага до деталей</h3>
+              <p class="text">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="item">
+              <div class="conteiner">
+                <svg width="70"height="70">
+                  <use href="./symbol-defs.svg#icon-clock"></use>
+                </svg>
+                </div>
+              <h3 class="title">Пунктуальність</h3>
+              <p class="text">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="item">
+              <div class="conteiner">
+                <svg width="70"height="70">
+                  <use href="./symbol-defs.svg#icon-Grafik"></use>
+                </svg>
+                </div>
+              <h3 class="title">Планування</h3>
+              <p class="text">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="item">
+              <div class="conteiner">
+                <svg width="70"height="70">
+                  <use href="./symbol-defs.svg#icon-Astronaut"></use>
+                </svg>
+                </div>
+              <h3 class="title">Сучасні технології</h3>
+              <p class="text">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Чим ми займаємося -->
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Чим ми займаємося</h2>
+          <ul class="what-we-do">
+            <li>
+              <img src="./imgST1.jpg" alt="робочий стіл"
+              />
+            </li>
+            <li>
+              <img src="./imgST2.jpg"alt="робочий стіл"/>
+                          </li>
+                          <li>
+                            <img
+                              src="./box 3ST3.jpg "
+                              alt="робочий стіл"
+                            />
+                          </li>
+                        </ul>
+                      </div>
+                    </section>
+                    <!-- Наша команда -->
+                    <section class="section-photos">
+                      <div class="container">
+                        <h2 class="section-title">Наша команда</h2>
+                        <ul class="photos">
+                          <li>
+                            <img
+                              src="./imgST4.jpg"
+                              alt="Ігор Дем’яненко"
+                              width="250"
+                              class="Ighor"
+                            />
+                            <p class="name">Ігор Дем’яненко</p>
+                            <p class="posision">Product Designer</p>
+                          </li>
+                          <li>
+                            <img
+                              src="./imgST5.jpg"
+                              alt="Ольга Репіна"
+                              width="250"
+                              class="Olga"
+                            />
+                            <p class="name">Ольга Репіна</p>
+                            <p class="posision">Frontend Developer</p>
+                          </li>
+                          <li>
+                            <img
+                              src="./imgST6.jpg"
+                              alt="Микола Тарасов"
+                              width="250"
+                              class="Mikola"
+                            />
+                            <p class="name">Микола Тарасов</p>
+                            <p class="posision">Marketing</p>
+                          </li>
+                          <li>
+                            <img src="./imgST7.jpg"
+                              alt="Михайло Єрмаков"
+                              width="250"
+                              class="Michael"
+                            />
+                            <p class="name">Михайло Єрмаков</p>
+                            <p class="posision">UI Designer</p>
+                          </li>
+                        </ul>
+                      </div>
+                    </section>
+                  </main>
+                  <!-- Футер -->
+                  <footer class="section footer">
+                    <div class="container">
+                      <a class="logo" href="./">Web<span>Studio</span></a>
+                      <address>м. Київ, пр-т Лесі Українки, 26</address>
+                      <ul class="contacts-list">
+                        <li class="contacts-item">
+                          <a class="contacts-link" href="">info@devstudio.com</a>
+                        </li>
+                        <li class="contacts-item">
+                          <a class="contacts-link" href="">+38 096 111 11 11</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </footer>
+                </body>
+              </html>
