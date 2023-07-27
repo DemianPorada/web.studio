@@ -407,3 +407,13 @@ flex-shrink: 0;
 .regular-item{
   fill: currentColor;
 }
+.what-we-do .text{
+  padding: 27px 113px;
+  background: rgba(47, 48, 58, 0.80);
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
