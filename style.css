@@ -42,7 +42,10 @@
     margin: 0;
   }
   /* загальні стилі */
-  
+  img {
+    max-width: 100%;
+    display: block;
+  }
   .section {
     /* outline: solid 3px green; */
   
@@ -416,4 +419,11 @@ flex-shrink: 0;
   line-height: normal;
   letter-spacing: 0.42px;
   text-transform: uppercase;
+}
+.what-we-do div{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(47, 48, 58, 0.80);
+  height: 70px;
 }
