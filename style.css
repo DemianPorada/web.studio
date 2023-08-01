@@ -45,6 +45,7 @@
   img {
     max-width: 100%;
     display: block;
+    height: auto;
   }
   .section {
     /* outline: solid 3px green; */
@@ -213,7 +214,7 @@
   }
   .section-title {
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
   }
   /* Чим ми займаємось */
   
@@ -426,4 +427,36 @@ flex-shrink: 0;
   justify-content: center;
   background-color: rgba(47, 48, 58, 0.80);
   height: 70px;
+}
+/* модельне вікно */
+.backdrop{
+  position: fixed;
+  background: rgba(0, 0, 0, 0.20);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal{
+  width: 528px;
+  height: 581px;
+  position: relative;
+  background-color: #fff;
+}
+.close{
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.10);;
 }
