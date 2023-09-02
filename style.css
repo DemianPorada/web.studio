@@ -348,6 +348,8 @@ font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 155.556% */
 letter-spacing: 0.54px;
+padding: 63px 24px;
+
   }
 .nav-link::after{
   transform: scale(0);
@@ -529,6 +531,7 @@ margin-bottom: 12px;
 .form-field{
   display: flex;
   flex-direction: column;
+  margin-bottom: 28px;
 }
 .backdrop.is-hidden{
   opacity: 0;
@@ -583,7 +586,7 @@ text-decoration-line: underline;
 .svg{
   position: absolute;
   left: 12px;
-  top: 30px;
+  top: 35px;
   
 }
 .form-field{
@@ -603,4 +606,17 @@ text-decoration-line: underline;
 }
 .form-field:focus-within  input{
   border-color: var(--accent-color);
+}
+.label{
+  color: #757575;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.12px;
+margin-bottom: 10px;
+}
+.textarea{
+  padding: 12px 16px;
 }
