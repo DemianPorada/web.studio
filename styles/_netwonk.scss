@@ -1,0 +1,30 @@
+.network-icon{
+    /* fill: rgba(175, 177, 184, 1); */
+    height: 20px;
+    width: 20px;
+    fill: currentColor;
+  } 
+  .network{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .network-link{
+    display: inline-flex;
+      justify-content: center;
+      align-items: center;
+  
+      /* display: inline-block;
+      padding: 12px; */
+  
+      width: 44px;
+      height: 44px;
+   
+      color: rgba(175, 177, 184, 1);
+  }
+  .network-link:hover,
+  .network-link:focus{
+    background-color: var(--accent-color);
+      border-radius: 50%;
+      color: var(--background-color);
+  }
