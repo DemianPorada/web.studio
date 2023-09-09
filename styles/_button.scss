@@ -1,0 +1,18 @@
+.job-title{
+    margin-bottom: 4px;
+  }
+  .bt-list{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+  .list-btn:not(:last-child){
+    margin-right: 10px;
+  }
+  .button{
+    border: none;
+    width: 125px;
+    height: 38px;
+    background-color: var(--accent-color);
+    color: var(--background-color);
+  }

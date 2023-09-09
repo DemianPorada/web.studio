@@ -1,0 +1,39 @@
+.section-photos {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #f5f4fa;
+    fill: Solid #ffffff;
+  }
+  
+  .photos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .photos img{
+    margin-bottom: 30px;
+  }
+  .photos-item{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    padding-bottom: 30px;
+  }
+  .name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .posision {
+    box-shadow: #000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    padding: 0;
+    text-align: center;
+    color: var(--secondary-text-color);
+    margin-bottom: 16px;
+  }

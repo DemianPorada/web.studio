@@ -1,0 +1,30 @@
+  .what-we-do {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .what-we-do img {
+    width: 370px;
+    height: 294px;
+  }
+  .what-we-do .text{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+  }
+  .what-we-do div{
+    align-items: center;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    background-color: rgba(47, 48, 58, 0.80);
+    height: 70px;
+    bottom: 0;
+    width: 100%;
+  }
+  .what-we-do-item{
+    position: relative;
+  }
