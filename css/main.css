@@ -781,4 +781,18 @@ address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.burger-menu {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .burger-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+    color: #fff;
+    border: none;
+  }
 }/*# sourceMappingURL=main.css.map */

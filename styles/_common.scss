@@ -10,7 +10,7 @@
     outline: 2px solid red;
 
     @media screen and (min-width: $mobile) {
-      width: $mobile;
+      width: $mobile;             
     }
     @media screen and (min-width: $tablet) {
       width: $tablet;
