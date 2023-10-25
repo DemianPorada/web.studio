@@ -2,9 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-  
     padding-top: 24px;
     padding-bottom: 25px;
+    @media screen and (max-width:767px) {
+      justify-content: space-between;
+    }
   }
   
   .header nav {
@@ -70,11 +72,13 @@
   }
   .burger-menu{
     display: none;
-    @media screen and (max-width:767px) {
-        display: flex;
-        background-color: #fff;
-        color: #fff;
-        border: none;
+    @media screen and (max-width:768px) {
+      display: flex;
+      background-color: transparent;
+      border: none;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
     }
 }
 .mobile-menu{
@@ -84,4 +88,16 @@
     width: 480px;
     height: 796px;
     background-color: #fff;
+}
+// .opem-icon{
+
+// }
+.close-icon{
+  display: none;
+}
+.burger-menu.is-open.close-icon{
+  display: block;
+}
+.burger-menu.is-open.open-icon{
+  display: none;
 }
