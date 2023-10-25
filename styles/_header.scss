@@ -68,3 +68,20 @@
   .contacts-link:focus {
     color: var(--accent-color);
   }
+  .burger-menu{
+    display: none;
+    @media screen and (max-width:767px) {
+        display: flex;
+        background-color: #fff;
+        color: #fff;
+        border: none;
+    }
+}
+.mobile-menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 480px;
+    height: 796px;
+    background-color: #fff;
+}

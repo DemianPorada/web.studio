@@ -161,6 +161,29 @@ img {
   color: var(--accent-color);
 }
 
+.burger-menu {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .burger-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #fff;
+    color: #fff;
+    border: none;
+  }
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 480px;
+  height: 796px;
+  background-color: #fff;
+}
+
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -564,8 +587,7 @@ address {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .svg {
@@ -781,18 +803,4 @@ address {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.burger-menu {
-  display: none;
-}
-@media screen and (max-width: 767px) {
-  .burger-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    background-color: #fff;
-    color: #fff;
-    border: none;
-  }
 }/*# sourceMappingURL=main.css.map */

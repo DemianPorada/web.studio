@@ -15,12 +15,3 @@
 @import './netwonk';
 @import './link-regular';
 @import './vse-inshe';
-.burger-menu{
-    display: none;
-    @media screen and (max-width:767px) {
-        display: flex;
-        background-color: #fff;
-        color: #fff;
-        border: none;
-    }
-}
